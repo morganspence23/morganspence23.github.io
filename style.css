@@ -1,0 +1,50 @@
+body {
+    background-color:lightgoldenrodyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;}
+
+#logo { margin: 0px; padding: 15px; font-family:"Fredoka One", sans-serif; width: 50%; border-radius: 10%;}
+
+ul{margin: 0px;}
+
+body > header {
+    background-color: rgb(242, 197, 115); color:white;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;}
+
+#nav-ul {display: flex;}
+
+#nav-ul > li {padding: 20px;margin: 10px;}
+
+body > header > nav > ul {list-style: none; text-decoration: none;}
+
+.navbutton {
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;    
+    border-radius: 10%;}
+
+body > main article {width: 85%; margin: auto; }
+
+#main-content{display: flex; justify-content: space-around;}
+#main-content > div {width: 80%;}
+
+
+img{border-radius: 35%;}
+
+h2 {text-align: center;}
+
+form{text-align: center;}
+
+body > footer {background-color:rgb(242, 197, 115);}
+
+#footer{display: flex;}
+
+#footer-div{display: flex;list-style: none;}
+
+#footer-div > div > li {margin-left: 40px;}
+#footer-div > div > li > a {text-decoration: none; color: beige;}
